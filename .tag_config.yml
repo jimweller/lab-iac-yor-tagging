@@ -1,0 +1,34 @@
+tag_groups:
+  - name: cpe-tags
+    tags:
+
+      - name: automation:RetainEBS
+        value:
+          default: "No"
+
+      - name: business:CostCenter
+        value:
+          default: "CC5409"
+      - name: business:CustomerName
+        value:
+          default: "Hospital Company Inc."
+      - name: business:EnvironmentType
+        value:
+          default: "Production"
+      - name: business:HsiNumber
+        value:
+          default: "54321"
+      - name: business:Platform
+        value:
+          default: "OnBase"
+      - name: business:Product
+        value:
+          default: "OnBase:HyCV:HICE"
+
+      - name: security:HIPPA
+        value:
+          default: "true"
+
+      - name: technical:IaC
+        value:
+          default: "terraform"
